@@ -88,7 +88,7 @@ h3 {
 }
 
 /* Navigation - Items Placement */
-.NavItem1, .NavItem2, .NavItem3, .NavItem4 {
+.NavItem, .NavItem1, .NavItem2, .NavItem3, .NavItem4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,12 +101,15 @@ h3 {
   color: #aaa;
   margin-right: 10px;
 }
-.NavItem1 {
+.NavItem {
   color: white;
+}
+.NavItem .feather {
+  margin-bottom: 3px;
+  color: #ffc700;
 }
 .NavItem1 .feather {
   margin-bottom: 3px;
-  color: #ffc700;
 }
 .NavItem2 .feather {
   margin-bottom: 3px;
